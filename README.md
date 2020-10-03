@@ -15,12 +15,12 @@ Please be aware that this project is currently a **work in progress**. So there 
 
 ## Build
 
+<img src="other/board-v1.jpg" height="300" style="margin: 0 auto 2em; display: block;" />
+
 - [ESP32 Thing](https://www.sparkfun.com/products/13907)
 - [NeoPixel (WS2811) strip](https://www.adafruit.com/product/3869)
 - Custom prototype board for power and data
 - [MicroPython](http://micropython.org) on the ESP32
-
-![A photo of the prototype board](/other/board-v1.jpg)
 
 ---
 
