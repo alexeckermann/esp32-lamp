@@ -20,6 +20,8 @@ Please be aware that this project is currently a **work in progress**. So there 
 - Custom prototype board for power and data
 - [MicroPython](http://micropython.org) on the ESP32
 
+![A photo of the prototype board](/other/board-v1.jpg)
+
 ---
 
 ## TODO
@@ -39,7 +41,6 @@ Current tests: `./test/neopixel-test`
 - Stable animation?
 - Best way to store animations?
   - Precompiling the data and storing in a list
-
 
 ---
 
