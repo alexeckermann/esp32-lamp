@@ -1,5 +1,7 @@
 # esp32-lamp
 
+<img src="other/rainbow-v1.gif" height="300" style="margin: 0 auto 2em; display: block;" />
+
 A hobby project for an ESP32 powered LED (NeoPixel/WS2811) lamp.
 
 Please be aware that this project is currently a **work in progress**. So there shouldn't be much worth copying or reusing in other projects at this stage.
@@ -24,23 +26,11 @@ Please be aware that this project is currently a **work in progress**. So there 
 
 ---
 
-## TODO
+## Table of Contents
 
-- [x] Build a prototype board with power supply
-- [ ] Evaluating MicroPython for performance and capability
-  - Animation speed, smoothness, complexity
-  - Concurrent tasks (animation & control)
-- [ ] Testing animations and driving LED strip
-
-### Current Work In Progress
-
-Current tests: `./test/neopixel-test`
-
-- How fast can an animation tick?
-- Are there any performance impacts?
-- Stable animation?
-- Best way to store animations?
-  - Precompiling the data and storing in a list
+- [TODO.md](TODO.md) - What I'm currently working on.
+- [BOARD.md](BOARD.md) - Information about the components and layout of the prototype board.
+- [NOTES.md](NOTES.md) - Collection of important details about the setup and development of the project.
 
 ---
 
