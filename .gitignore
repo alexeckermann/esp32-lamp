@@ -1,0 +1,9 @@
+.DS_Store
+
+micropython-master/
+esp32-*.bin
+
+__pycache__
+
+.env
+config.json
