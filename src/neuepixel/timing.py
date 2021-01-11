@@ -41,7 +41,7 @@ def pulse_value(value, timing=NeuePixelTiming(), bit_count=8):
 	return pulses
 
 def generate_pulse_value_dictionary(timing=NeuePixelTiming(), bit_count=8, value_range=range(256)):
-	values = [None] * len(value_range
+	values = [None] * len(value_range)
 	for value in value_range:
 		values[value] = pulse_value(value, timing=timing, bit_count=bit_count)
 	return values
