@@ -1,6 +1,7 @@
 .DS_Store
 
-micropython-master/
+micropython/
+esp-idf/
 esp32-*.bin
 
 __pycache__
